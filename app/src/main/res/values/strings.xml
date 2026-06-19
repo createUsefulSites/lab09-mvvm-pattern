@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ЛР9: Room и Retrofit</string>
+    <string name="main_title">ЛР9: MVVM, Room и Retrofit</string>
+    <string name="main_subtitle">Приложение загружает изображения через The Cat API, сохраняет их в Room и показывает список через ViewModel.</string>
+    <string name="button_check_cache">Проверить кэш</string>
+    <string name="button_refresh">Загрузить из сети</string>
+    <string name="button_clear">Очистить Room-кэш</string>
+    <string name="manual_block_title">Добавление записи</string>
+    <string name="manual_url_hint">URL изображения</string>
+    <string name="button_add_manual">Добавить URL в базу</string>
+    <string name="list_block_title">Сохраненные изображения</string>
+    <string name="counter_empty">В списке пока нет изображений.</string>
+    <string name="counter_template">Записей в Room: %1$d</string>
+    <string name="source_user">Пользователь</string>
+    <string name="source_network">The Cat API</string>
+    <string name="cat_details_template">Идентификатор: %1$s\nРазмер: %2$d x %3$d пикс.\nСохранено: %4$s</string>
+    <string name="cat_image_description">Изображение кота из сети или локальной базы</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Lab09DbNetwork" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColorDark</item>
+        <item name="colorOnPrimary">@color/buttonTextColor</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/buttonTextColor</item>
+        <item name="colorSurface">@color/panelBackground</item>
+        <item name="colorOnSurface">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:navigationBarColor">@color/windowBackground</item>
+        <item name="android:statusBarColor">@color/primaryColorDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

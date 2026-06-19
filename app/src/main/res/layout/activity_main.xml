@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScreenRoot"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleText"
+        android:text="@string/main_title" />
+
+    <TextView
+        style="@style/BodyText"
+        android:layout_marginTop="4dp"
+        android:text="@string/main_subtitle" />
+
+    <TextView
+        android:id="@+id/status_text_view"
+        style="@style/StatusPanel"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/counter_text_view"
+        style="@style/BodyText"
+        android:layout_marginTop="8dp"
+        android:text="@string/counter_empty" />
+
+    <LinearLayout
+        style="@style/ButtonRow"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/button_check_cache"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/button_check_cache" />
+
+        <Button
+            android:id="@+id/button_refresh"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/button_refresh" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_clear"
+        style="@style/QuietButton"
+        android:text="@string/button_clear" />
+
+    <TextView
+        style="@style/SectionTitleText"
+        android:layout_marginTop="14dp"
+        android:text="@string/manual_block_title" />
+
+    <LinearLayout
+        style="@style/FormPanel"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/manual_url_edit_text"
+            style="@style/UrlInput"
+            android:autofillHints="url"
+            android:hint="@string/manual_url_hint"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/button_add_manual"
+            style="@style/PrimaryButton"
+            android:layout_marginTop="8dp"
+            android:text="@string/button_add_manual" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/SectionTitleText"
+        android:layout_marginTop="14dp"
+        android:text="@string/list_block_title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+</LinearLayout>

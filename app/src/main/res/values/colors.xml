@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="windowBackground">#F6F7F4</color>
+    <color name="panelBackground">#FFFFFF</color>
+    <color name="primaryColor">#1B6B6F</color>
+    <color name="primaryColorDark">#0E4448</color>
+    <color name="accentColor">#8A5A21</color>
+    <color name="quietButtonColor">#626B57</color>
+    <color name="textColorPrimary">#17201E</color>
+    <color name="textColorSecondary">#56625F</color>
+    <color name="dividerColor">#D9DDD6</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="imagePlaceholderColor">#E8ECE6</color>
+    <color name="imageErrorColor">#EFD8D1</color>
+    <color name="badgeBackground">#E7F2F0</color>
+</resources>
